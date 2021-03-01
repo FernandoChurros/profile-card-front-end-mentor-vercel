@@ -1,0 +1,9 @@
+body {
+	background: #19a2ae;
+	background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+	background-repeat: no-repeat;
+	}
+
+.conteiner {
+	height: calc(100vh - 14px - .3rem);
+}

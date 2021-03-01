@@ -1,0 +1,49 @@
+.wrapper-dados {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	text-align: center;
+}
+.nome-img {
+	transform: translateY(50%);
+}
+
+.dados {
+	background: #FFF;
+	background-image: url("../images/bg-pattern-card.svg");
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+	height: 400px;
+}
+
+.dados-image {
+	border: 5px solid #fff;
+	border-radius: 50%;
+}
+
+.dados h1 {
+	text-align: center;
+	font-weight: 700;
+}
+
+.dados h1 span  {
+	color: hsl(229, 23%, 23%);
+	font-weight: 400;
+}
+
+.dados-dl {
+	border-top: 1px solid #000;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	padding: 15px;
+	font-weight: bold;
+}
+
+.dados-dl dd {
+	color: #828282;
+	font-weight: 400;
+}

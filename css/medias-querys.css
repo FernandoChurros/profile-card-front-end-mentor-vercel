@@ -1,0 +1,21 @@
+@media (min-width: 0) {
+	.dados {
+		width: 330px;
+		transform: translateY(40%);
+	}
+
+	.attribution {
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 500px) {
+	.dados {
+		width: 350px;
+		transform: translateY(50%);
+	}
+
+	.attribution {
+		font-size: 14px;
+	}
+}
